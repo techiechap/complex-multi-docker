@@ -1,6 +1,6 @@
 #Specify base image
 FROM node:alpine
-WORKDIR /app
+WORKDIR "/app"
 #Install dependencies
 COPY ./package.json ./
 
